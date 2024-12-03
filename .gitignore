@@ -25,4 +25,50 @@ var/
 
 # Dataset and models (optional, if you want to store them separately)
 data/
-*.pth 
+*.pth
+
+# Additional useful ignores for ML projects
+# Checkpoint files
+checkpoints/
+*.ckpt
+*.pt
+model_checkpoints/
+
+# Logs and outputs
+logs/
+runs/
+tensorboard/
+wandb/
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large files and archives
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Environment
+venv/
+.env
+.venv
+.python-version
+requirements.txt.lock
+
+# Results and temporary files
+results/
+tmp/
+temp/
+output/
+*.csv
+*.json
+*.pkl
+
+# Keep specific files (if needed)
+!data/README.md
+!requirements.txt
